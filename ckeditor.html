@@ -1,0 +1,30 @@
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <title>CKEditor</title>
+        <!-- <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script> -->
+        <script src="ckeditor/ckeditor.js"></script>
+</head>
+
+<form>
+        <textarea id="ckeditor" name="content"></textarea>
+        <!-- <input type="submit" name="submit"> -->
+</form>
+
+<body>
+        <div>
+                <h3>Guideline</h3>
+                <b><i>
+                <li>Type something you want</li>
+                <li>Use the editor tools to make your content</li>
+                <li>Click at the Source button in the top left to generate HTML code</li>
+                <li>Click Source button again to go back</li>
+                </i></b>
+        </div>
+        <script>
+                CKEDITOR.replace('ckeditor');
+        </script>
+</body>
+
+</html>
