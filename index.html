@@ -7,12 +7,6 @@
         <script src="ckeditor/ckeditor.js"></script>
 </head>
 
-<form>
-        <textarea id="ckeditor" name="content"></textarea>
-        <!-- <input type="submit" name="submit"> -->
-</form>
-
-<body>
         <div>
                 <h3>Guideline</h3>
                 <b><i>
@@ -21,7 +15,15 @@
                 <li>Click at the Source button in the top left to generate HTML code</li>
                 <li>Click Source button again to go back</li>
                 </i></b>
+                <br><br>
         </div>
+
+<form>
+        <textarea id="ckeditor" name="content"></textarea>
+        <!-- <input type="submit" name="submit"> -->
+</form>
+
+<body>
         <script>
                 CKEDITOR.replace('ckeditor');
         </script>
